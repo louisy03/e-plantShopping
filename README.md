@@ -1,16 +1,10 @@
-# React + Vite
+# Paradise Nursery Shopping Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Paradise Nursery is an online shopping web application built with React and Redux Toolkit. It allows users to browse a diverse catalog of indoor plants, view plant details, manage their shopping cart, and calculate dynamic totals.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Landing page with company background and Get Started action.
+- Categorized plant catalog (Air Purifying, Aromatic, and Low Light plants).
+- Dynamic shopping cart with Redux Toolkit state management.
+- Real-time cart item count in navbar.
+- Quantity adjustment, item removal, and subtotal/total calculations.
